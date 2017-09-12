@@ -60,7 +60,7 @@ hr {
     margin-right: auto;
 }
 a {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 
@@ -463,4 +463,121 @@ a.arrow-link:hover {
 }
 .processRow2ItemCont:hover > p {
     color: #aaaaaa;
+}
+
+.about {
+    background: #f4f4f4;
+}
+.aboutTitle h2 {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.aboutHR hr {
+    background: #cccccc;
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 75px;
+}
+@media (max-width: 799px) {
+    .aboutTitle hr {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 550px) {
+    .aboutHR hr {
+        margin-bottom: 25px;
+    }
+}
+.aboutHeaderText {
+    padding: 75px 20px;
+    background: #ffffff;
+}
+.pLink {
+    color: inherit;
+    padding-bottom: 1px;
+    border-bottom: 1px dotted #cccccc;
+}
+.pLink:hover {
+    color: #111111;
+}
+.aboutInnerDiv {
+    padding: 75px 20px;
+    background: #ffffff;
+}
+
+.aboutEmployeeImg {
+    position: relative;
+    line-height: 0;
+}
+.employeeImgHover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.0);
+    background: rgba(0, 0, 0, 0);
+    visibility: visible;
+    transition: all .2s;
+}
+.employeeImgHover span {
+    font-family: 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.employeeImgHover i {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    transition: all .2s;
+    font-family: FontAwesome;
+    font-style: normal;
+}
+.employeeImgHover:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.employeeImgHover:hover i {
+    color: rgba(255, 255, 255, 1);
+}
+.employeeImgHover i:hover {
+    background: #ffffff;
+    color: rgba(0, 0, 0, 1);
+}
+.aboutEmployeeImg img {
+    max-width: 100%;
+    height: auto;
+}
+.aboutEmployeeDesc {
+    background: #ffffff;
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 15px 15px 25px;
+}
+.aboutEmployeeDesc h3 {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+}
+.aboutEmployeeDesc p {
+    color: #aaaaaa;
+    line-height: 20px;
+    margin: 0;
 }
