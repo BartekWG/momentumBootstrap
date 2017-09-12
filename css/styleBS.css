@@ -581,3 +581,74 @@ a.arrow-link:hover {
     line-height: 20px;
     margin: 0;
 }
+
+.footerSocial {
+    background: #111111;
+}
+.footerSocialRow {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #292929;
+}
+@media (max-width: 799px) {
+    .footerRow1 {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+}
+@media (max-width: 550px) {
+    .footerRow1 {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+}
+.footerSocialRow a {
+    color: inherit;
+}
+.footerSocialRow i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+    color: #888888;
+    margin: 10px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    transition: all .2s;
+}
+.footerSocialRow i:hover {
+    color: white;
+}
+.footerSocialRow p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.footerCopy {
+    background: #111111;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+@media (max-width: 799px) {
+    .footerCopy {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 550px) {
+    .footerCopy {
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+}
+.footerCopy p {
+    margin-bottom: 25px;
+}
