@@ -66,7 +66,9 @@ a {
 
 
 
-
+#home {
+    padding-top: 0px;
+}
 .jumbotron {
     text-align: center;
     background-image: url("../../foto/bg-1.jpg");
