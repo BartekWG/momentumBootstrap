@@ -395,3 +395,72 @@ a {
 a.arrow-link:hover {
     color: #ff4800;
 }
+
+.process {
+    background: #222222;
+}
+.processRow1 h2 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.processRow1 hr {
+    background: #555555;
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 75px;
+}
+@media (max-width: 799px) {
+    .processRow1 hr {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 550px) {
+    .processRow1 hr {
+        margin-bottom: 25px;
+    }
+}
+.processRow2ItemCont {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.processIcon {
+    display: block;
+    margin: 0 auto 20px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 36px;
+    color: #555555;
+    background: none;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    transition: all .2s;
+}
+.processItemTitle {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 0;
+    font-family: 'Raleway', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.processRow2ItemCont p {
+    margin-bottom: 25px;
+    transition: all .2s;
+}
+.processRow2ItemCont:hover > i {
+    color: #ffffff;
+    font-size: 48px;
+}
+.processRow2ItemCont:hover > p {
+    color: #aaaaaa;
+}
